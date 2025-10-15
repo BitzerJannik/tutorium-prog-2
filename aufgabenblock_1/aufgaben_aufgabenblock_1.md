@@ -30,7 +30,7 @@ Schreibe ein Programm, dass einen Kurs-Namen und eine Komma-Zahl einliest. Die Z
 
 ### Aufgabe 1.5 - Zinsen berechnen - Teil I
 
-Du hast Geld auf einem Sparkonto liegen. Du moechtest nun berechnen, wie viel Zinsen du innerhalb eines Jahres bekommst. Schreibe ein Programm, dass einen Betrag einliest und die Zinsen berechnet. Die Ausgabe sollte so aussehen:
+Du hast Geld auf einem Sparkonto liegen. Du moechtest nun berechnen, wie viel Zinsen du innerhalb eines Jahres bekommst. Schreibe ein Programm, dass einen Betrag einliest und die Zinsen berechnet. Die Ausgabe sollte ungefaehr so aussehen:
 
 ```Java
 Zinssatz:        1,00 %
