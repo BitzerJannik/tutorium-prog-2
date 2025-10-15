@@ -120,7 +120,7 @@ Gehe systematisch vor. Erstelle erst das Array, die Ein- und Ausgabe- Funktional
 
 ### Aufgabe 3.4 - Permutationen
 
-Erstelle ein Programm, welches einen String/Zeichenkette einliest und alle moeglichen Anordnungen ausgibt. Berechne die Anzahl der Moeglichkeiten iterativ.
+Erstelle ein Programm, welches einen String/Zeichenkette einliest und alle moeglichen Anordnungen ausgibt. Berechne die Anzahl der Moeglichkeiten.
 
 ```Java
 Permutationen fuer 123:
