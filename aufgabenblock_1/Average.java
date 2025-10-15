@@ -25,5 +25,7 @@ public class Average {
 
         result = result / numbers.length;
         System.out.println("Durchschnitt: " + result);
+
+        scanner.close();
     }
 }
