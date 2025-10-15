@@ -24,9 +24,10 @@ Schreibe ein Programm, welches einen Wert fuer n einliest und daraus 2 Hoch n be
 
 ### Aufgabe 1.4 - Stunden pro Semester berechnen
 
-Schreibe ein Programm, dass einen Kurs-Namen und eine Komma-Zahl einliest. Die Zahl steht fuer die Anzahl der SWS (Semesterwochenstunden). Berechne nun den gesamten Stundenaufwand fuer das Semester. Die Anzahl der Wochen pro Semester soll innerhalb des Programms als Konstante definiert werden. Die Ausgabe auf dem Terminal sollte so aussehen:
+Schreibe ein Programm, dass einen Kurs-Namen und eine Komma-Zahl einliest. Die Zahl steht fuer die Anzahl der SWS (Semesterwochenstunden). Berechne nun den gesamten Stundenaufwand fuer das Semester. Die Anzahl der Wochen pro Semester (z.Bsp. 16 Wochen) soll innerhalb des Programms als Konstante definiert werden. Die Ausgabe auf dem Terminal sollte so aussehen:
 
 `Der Gesamtaufwand fuer Programmierung 2 betraegt: 50 Std.`
+
 ### Aufgabe 1.5 - Zinsen berechnen - Teil I
 
 Du hast Geld auf einem Sparkonto liegen. Du moechtest nun berechnen, wie viel Zinsen du innerhalb eines Jahres bekommst. Schreibe ein Programm, dass einen Betrag einliest und die Zinsen berechnet. Die Ausgabe sollte so aussehen:
@@ -72,6 +73,13 @@ Anzahl: 4
 ```
 
 Versuche nun die Treppe rechtsbuendig anzuzeigen.
+
+```Java
+   *
+  **
+ ***
+****
+```
 
 ### Aufgabe 2.5 - Zinsen berechnen -Teil II
 
