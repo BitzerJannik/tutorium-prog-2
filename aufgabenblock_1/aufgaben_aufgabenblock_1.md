@@ -84,6 +84,7 @@ Versuche nun die Treppe rechtsbuendig anzuzeigen.
 ### Aufgabe 2.5 - Zinsen berechnen -Teil II
 
 Eine andere Bank wirbt nun damit, dass die Zinszahlungen monatlich statt jaehrlich ausgezahlt werden. Berechne, ab welchem Monat die Summe der monatlichen Zinszahlungen den Betrag der jaehrlichen Zinszahlung uebersteigt.
+Ihr koennt gerne die Loesung von Teil I als Basis nehmen.
 
 ---
 ## 3. Eindimensionale Arrays
