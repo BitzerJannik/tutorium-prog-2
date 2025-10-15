@@ -34,6 +34,16 @@ public class MinMax {
             }
         }
 
+        System.out.print("Werte: [ ");
+        for (int j = 0; j < numbers.length; j++) {
+            System.out.print(numbers[j]);
+            if (!(j == (numbers.length - 1))) {
+                System.out.print(", ");
+            } else {
+                System.out.print(" ]\n");
+            }
+        }
+
         System.out.println("Minimum: " + min);
         System.out.println("Maximum: " + max);
 
