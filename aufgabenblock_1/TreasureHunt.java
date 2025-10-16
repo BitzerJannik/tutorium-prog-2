@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class TreasureHunt {
     public static int ROWS = 5;
@@ -37,7 +38,18 @@ public class TreasureHunt {
     }
 
     public static int[] create_treasure () {
-        return new int[] {1,1};
+        // set max values for rows and cols
+        int end_rows = ROWS-1;
+        int end_cols = COLS-1;
+        
+        // create random row position
+        Random rand = new Random();
+        int rows = rand.nextInt( (end_rows - 0) + 1);
+        
+        // create random col position
+        int cols = rand.nextInt( (end_cols - 0) + 1);
+
+        return new int[] {rows,cols};
     }
 
     public static void set_symbol (char symbol, char[][] grid, int [] pos) {
@@ -56,6 +68,7 @@ public class TreasureHunt {
         
         // treasure position
         int [] treasure = create_treasure();
+        
 
         System.out.println("Finde den Schatz");
         String prompt = "";
@@ -72,6 +85,8 @@ public class TreasureHunt {
             // get the coordinates from the user
             int a = scanner.nextInt();
             int b = scanner.nextInt();
+
+            scanner.nextLine(); // flush/ reset input stream and remove \n
 
             // normalize input
             a--;
@@ -99,7 +114,6 @@ public class TreasureHunt {
             set_symbol(MS, game_grid, user);
             counter++;
             
-            scanner.nextLine();
             // to exit the game before finishing
             System.out.println("Weiter? (Beenden mit q)");
             prompt = scanner.nextLine();
@@ -108,8 +122,6 @@ public class TreasureHunt {
                 System.out.println("Spiel wurde beendet!");
                 break;
             }
-            // flush/ reset scanner
-            scanner.nextLine();
         } // while/game-loop end
         
         scanner.close();
