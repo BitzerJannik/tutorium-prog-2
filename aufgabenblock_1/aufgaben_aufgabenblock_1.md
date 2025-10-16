@@ -118,22 +118,6 @@ Erstelle ein Array, welches erlaubte Zeichen fuer ein Passwort enthaelt. Der Nut
 
 Gehe systematisch vor. Erstelle erst das Array, die Ein- und Ausgabe- Funktionalitaet und die Erstellung eines "einfachen" Passwortes mit einem Wert aus dem Array. Erst am Schluss kuemmerst du dich um das zufaellige Auswaehlen von Zeichen.
 
-### Aufgabe 3.4 - Permutationen
-
-Erstelle ein Programm, welches einen String/Zeichenkette einliest und alle moeglichen Anordnungen ausgibt. Berechne die Anzahl der Moeglichkeiten.
-
-```Java
-Permutationen fuer 123:
-
-1: 123
-2: 132
-3: 213
-4: 231
-5: 312
-6: 321
-
-Gesamtzahl: 6
-```
 
 ---
 ## 4. Zweidimensionale Arrays
