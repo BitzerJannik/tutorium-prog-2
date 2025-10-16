@@ -141,26 +141,35 @@ Gesamtzahl: 6
 
 ### Aufgabe 4.1 - Segment-Anzeige
 
-Erstelle ein 3x5 grosses Array. Lies ein Zeichen ein als Ausgabe-Symbol. Anschliessend soll eine Zahl eingelesen werden und diese mit Hilfe des Symbols angezeigt werden. Hierfuer soll das Array erst entsprechend belegt werden und dann Zeile fuer Zeile ausgegeben werden:
+Erstelle ein 5x3 grosses Array (5 Zeilen, 3 Spalten). Lies ein Zeichen ein als Ausgabe-Symbol. Anschliessend soll
+eine Zahl eingelesen werden und diese mit Hilfe des Symbols angezeigt werden. Hierfuer soll das Array erst entsprechend 
+belegt und dann ausgegeben werden.
+
+Schreibe hierfuer eine Methode print_display, welche ein array uebergeben bekommt, und dieses ausgibt.
+Schreibe eine Methode set_display, welche 2 parameter uebergeben bekommt, und daraus ein Array generiert und
+zurueckgibt. Ueberlege, welche Kontrollstruktur sinn macht, wenn du die Zahlen 0-9 ausgeben moechtest.
+
+Ueberlege dir eine sinnvolle Systematik, wie du die einzelnen Segmente ausgeben kannst. Lagere den Code pro Segment
+am besten in eine Methode aus (Pro Segment am besten eine Methode).
 
 ```Java
 Symbol: *
 
->>> 7
+>>> 2
 
-***
-  *
-  *
-  *
-  *
+ ***
+    *
+    *
+ ***
+*
+*
+ ***
 
 ```
 
-Fuer den Anfang kannst du die Zeichen hardcodiert in Arrays hinterlegen.
-
 Erweiterungen:
-- Schreibe die Zahl zweimal oder mehrmals in die gleiche Zeile
-- definiere logische Regeln zur Belegung anstatt hardcodierte Arrays zu hinerlegen
+- Erweitere den "display" so, dass er zusaetzlich einen Rahmen erhaelt
+- erweitere die print_display Methode so, dass Zeichen auch nebeneinander ausgegeben werden koennen
 
 ### Aufgabe 4.2 - Schatzsuche
 
