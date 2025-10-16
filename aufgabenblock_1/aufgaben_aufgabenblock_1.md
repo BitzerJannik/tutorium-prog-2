@@ -123,16 +123,20 @@ Gehe systematisch vor. Erstelle erst das Array, die Ein- und Ausgabe- Funktional
 ## 4. Zweidimensionale Arrays
 ---
 
-### Aufgabe 4.1 - Segment-Anzeige
+### Aufgabe 4.1 - 7-Segment-Anzeige
+
+Sucht euch am besten eine Uebersicht, was eine 7-Segment-Anzeige ist, damit ihr euch das vorstellen koennt.
 
 Erstelle ein 7x5 grosses Array (7 Zeilen, 5 Spalten). Lies ein Zeichen ein als Ausgabe-Symbol. Anschliessend soll
 eine Zahl eingelesen werden und diese mit Hilfe des Symbols angezeigt werden. Hierfuer soll das Array erst entsprechend 
 belegt und dann ausgegeben werden.
 
-Schreibe hierfuer eine Methode print_display, welche ein array uebergeben bekommt, und dieses ausgibt.
-Schreibe eine Methode set_display, welche 2 parameter uebergeben bekommt, und daraus ein Array generiert und
-zurueckgibt. Ueberlege, welche Kontrollstruktur sinn macht, wenn du die Zahlen 0-9 ausgeben moechtest.
+- Schreibe hierfuer eine Methode print_display, welche ein array uebergeben bekommt, und dieses ausgibt.
+- Schreibe eine Methode set_display, welche 2 parameter uebergeben bekommt, und daraus ein Array generiert und
+zurueckgibt. 
+- Ueberlege, welche Kontrollstruktur sinn macht, wenn du die Zahlen 0-9 ausgeben moechtest.
 
+Hinweis:
 Ueberlege dir eine sinnvolle Systematik, wie du die einzelnen Segmente ausgeben kannst. Lagere den Code pro Segment
 am besten in eine Methode aus (Pro Segment am besten eine Methode).
 
