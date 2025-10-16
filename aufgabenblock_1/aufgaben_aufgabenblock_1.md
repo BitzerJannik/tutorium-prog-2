@@ -125,7 +125,7 @@ Gehe systematisch vor. Erstelle erst das Array, die Ein- und Ausgabe- Funktional
 
 ### Aufgabe 4.1 - Segment-Anzeige
 
-Erstelle ein 5x3 grosses Array (5 Zeilen, 3 Spalten). Lies ein Zeichen ein als Ausgabe-Symbol. Anschliessend soll
+Erstelle ein 7x5 grosses Array (7 Zeilen, 5 Spalten). Lies ein Zeichen ein als Ausgabe-Symbol. Anschliessend soll
 eine Zahl eingelesen werden und diese mit Hilfe des Symbols angezeigt werden. Hierfuer soll das Array erst entsprechend 
 belegt und dann ausgegeben werden.
 
