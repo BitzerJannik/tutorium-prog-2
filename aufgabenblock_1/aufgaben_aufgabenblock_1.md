@@ -161,8 +161,23 @@ Erweiterungen:
 
 ### Aufgabe 4.2 - Schatzsuche
 
-In einem 5x5 grossen Spielfeld soll an einer zufaelligen Position ein Zeichen, der Schatz, platziert werden. Der Spieler soll dann/User soll diese erraten, in dem er die Koordinaten eingibt. Bei jeder Eingabe soll ueberprueft werden, ob der Schatz gefunden wurde oder ob die Eingabe zu weit links, rechts, zu hoch oder zu niedrig gewesen ist.
-Zeichne bei jedem Durchlauf das Spielfeld. Sollte der Schatz nicht gefunden worden sein, trage ein 'x' in das Spielfeld ein. Sollte der Schatz gefunden worden sein, gib nochmals das Spielfeld an, diesmal aber mit einem '$' an der Position des Schatzes statt einem 'x'.
+In einem 5x5 grossen Spielfeld soll an einer zufaelligen Position ein Zeichen, der Schatz, platziert werden. 
+Der Spieler/User soll dann diese erraten, in dem er die Koordinaten eingibt. Bei jeder Eingabe soll ueberprueft werden, 
+ob der Schatz gefunden wurde oder ob die Eingabe zu weit links, rechts, zu hoch oder zu niedrig gewesen ist.
+Zeichne bei jedem Durchlauf das Spielfeld. Sollte der Schatz nicht gefunden worden sein, trage ein 'x' in das Spielfeld
+ein. Sollte der Schatz gefunden worden sein, gib nochmals das Spielfeld an, diesmal aber mit einem '$' an der Position
+des Schatzes statt einem 'x'.
+
+Packe die einzelnen Programmteile am besten in Methoden:
+- erstelle das Spielfeld und belege es mit Leerzeichen
+- definiere die Anzahl der Zeilen und Spalten sowie die Zeichen fuer Miss und Trasure als Konstanten
+- schreibe eine Methode, die das grid mit den Zeilen- und Spaltennummern anzeigt
+- schreibe eine Methode, die die Koordinate des Schatzes zufaellig generiert (starte zunaechst mit einem fixen Wert)
+- schreibe eine Methode, die die User-Eingabe und den Wert des Schatzes vergleicht
+- schreibe eine Methode, die ein Symbol im grid setzt
+- ueberpruefe, ob die User-Eingabe im Bereich des grids ist, ansonsten brich ab oder wiederhole die Eingabe
+- fuege informationen fuer den User hinzu (Eingabe-Aufforderung, Punktestand, gewonnen, beendet usw.)
+
 
 ```Java
 
@@ -177,9 +192,11 @@ Versuche: 5
 ```
 
 
-Bevor du mit zufaelligen Zahlen arbeitest, erarbeite dir die Kernfunktionen mit einem festen Wert und baue erst am Schluss die Zufaelligkeit ein.
+Bevor du mit zufaelligen Zahlen arbeitest, erarbeite dir die Kernfunktionen mit einem festen Wert und baue erst am 
+Schluss die Zufaelligkeit ein.
 
 Erweiterungen:
+- Implementiere einen vorzeitigen Abbruch ueber eine User-Eingabe, zum Beispiel ueber 'q' fuer quit
 - zeichne mit ASCII-Symbolen ein Gitternetz
 
 ```Java
