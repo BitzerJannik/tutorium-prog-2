@@ -1,10 +1,36 @@
 # Aufgaben zum Aufgabenblock II
 
-## 1. Überladen von Konstruktoren und Methoden sowie einfache Aggregationen/Kompositionen
+## 1. Einfache Klassen und Tests mit Tests in diesen Klassen
+
+### 1.1 Datenklasse Student
+
+Du sollst fuer die Hochschule ein Programm fuer die Verwaltung von Studierenden erstellen. Hierfuer erstellst du zunaechst
+eine Datenklasse. Diese sollte folgende Attribute beinhalten:
+
+- firstName: String
+- lastName: String
+- courseOfStudy: String
+- age: int >= 0
+- matriculationNumber: int
+- payedTutionFee: boolean
+
+Die Klasse soll Student heißen. Entwickle zudem folgende Konstruktoren:
+- defaultkonstruktor: keine Parameter, allerdings sinnvolle Platzhalter/Standardwerte
+- voll qualifizierter Konstruktor
+- Copy-Konstruktor
+
+Zudem sollen fuer alle Attribute Getter- und Setter-Methoden erstellt werden.
+Entwickle eine `print()` Methode, die den Namen der Klasse, die Namen der Attribute
+sowie ihrer Werte ausgibt.
+
+Schreibe ein Programm StudentApp, in welcher du alle Methoden testest.
+
+
+## 2. Überladen von Konstruktoren und Methoden sowie einfache Aggregationen/Kompositionen
 
 ![Klassendiagramm](assets/tutorium_aufgabenblock_2_aufgabe1.png)
 
-### Aufgabe 1.1 - POJO-Klasse Component
+### Aufgabe 2.1 - POJO-Klasse Component
 
 Entwickel eine Klasse Component wie oben beschrieben.
 
@@ -17,7 +43,7 @@ Entwickel eine Klasse Component wie oben beschrieben.
 - Erstelle eine main-class ComponentApp und teste alle Methoden.
 - erstelle ein array der Größe 5 und speichere 5 Components ab und gib sie mit einer Schleife aus. (du kannst die Components auch via einer Schleife erstellen)
 
-### Aufgabe 1.2 - Klasse Warehouse mit einem Lager für Components als ArrayList
+### Aufgabe 2.2 - Klasse Warehouse mit einem Lager für Components als ArrayList
 
 - Ein Warehouse hat eine Standardkapazität von 150 Teilen
 - es gibt eine maximale Kapazität und es gibt eine aktuelle Kapazität. Überlege dir eine sinnvolle Systematik, wie du das abbilden kannst und wie du jeweils die maximale und die aktuelle Kapazität abrufen kannst
