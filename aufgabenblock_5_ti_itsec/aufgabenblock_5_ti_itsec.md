@@ -114,9 +114,110 @@ Artikel-Nr:
 
 ## 2.0 Objektorientierung
 
+Ziel ist es, ein kleines Programm zur Prüfungsanmeldung zu schreiben. Studierende sollen angemeldet, abgemeldet werden können.
+Zudem soll geprüft werden, ob ein Studierender bereits angemeldet ist, sowie soll eine Liste über alle Anmeldungen erstellt werden.
+
 ### 2.1 Einfache Klassen
 
-### 
+Zunächst sollen die Basis-Klassen definiert werden. Schreibe jeweils sinnvolle
+Konstruktoren und teste die Klassen getrennt.
 
+#### class Student
+- definiere eine Klasse Student
+- es soll mindestens folgende Attribute geben:
+    - Name
+    - Geburtsdatum
+    - Matrikel-Nummer
+    - Studienfach
+    - Pruefungsordnung
+    - Semester
+
+#### class Pruefungsamt
+- definiere eine Klasse Pruefungsamt
+- folgende Attribute:
+    - pruefungen (map)
+- folgende Methoden:
+    - anmelden
+    - abmelden
+    - pruefen
+    - ausgeben
+
+### Aufteilung
+
+Lagere den Code in eine separate Header-Datei aus und schreibe ein
+einfaches main programm, welches die vorherigen Tests beinhaltet.
+
+### Menu
+
+Schreibe in der main-Datei deines Programms eine Funktion namens `run()`.
+
+Hier soll ein Menu definiert werden:
+
+```Markdown
+1: Anmelden
+2: Abmelden
+3: Anmeldungen anzeigen
+4: Dateien einlesen
+0: Ende
+```
+
+Schreibe ein switch-Statement, und gebe mit einfachen prints auf der 
+Konsole Platzhalter aus. Der main-Loop soll bereits sauber beendet werden,
+wenn 0 als Eingabe erfolgt.
+
+### Daten-Erfassung
+
+Beim An- und Abmelden müssen entsprechend Daten gesammelt werden. Schreibe
+dazu entsprechend folgender Anforderungen in den entsprechenden Bereichen
+den Code:
+
+**Anmelden:**
+- es sollen alle Daten gesammelt werden, damit das Studtent Objekt sauber
+  angelegt werden kann (siehe oben)
+- baue Validierungen ein:
+    - die Matrikel-Nummer sollte immer 6 Stellen haben
+    - der Name darf keine Ziffern oder Sonderzeichen enthalten
+- wenn alle Daten gesammelt wurden, soll ein Student Objekt erzeugt werden
+- Optional kann der Eingabe-Prozess so lange weitergefuehrt werden, bis er
+  explizit ueber eine Eingabe abgebrochen wird. Speichere die entstehenden 
+  Student-Objekte sinnvoll
+- Optinoal: schreibe alles in Funktionen
+
+
+**Abmelden**
+- es soll einfach nach einer Matrikel-Nummer gefragt werden
+    - validiere sie mit der obigen Validierungsanforderung
+- schreibe weitere Moeglichkeiten wie nach Name usw. und speichere diese
+  zwischen
+
+### Methoden Pruefungsamt
+
+Implementiere nun die Methoden der class Pruefungsamt aus. Schreibe zuerst
+die pruefen-Methode, da diese auch beim Anmelden und Abmelden verwendet werden
+soll und mit der verhindert werden soll, dass zweimal der gleiche Studierende
+angelegt wird. 
+
+### Main Programm
+
+Baue nun alles zusammen. Bei Anmelden und Abmelden muss nun noch mit dem
+Objekt Pruefungsamt interagiert werden und die entsprechenden Prozesse
+hinzugefuegt werden. Bei anmelden soll dann ein Student Objekt gespeichert
+werden (in der internen Map). Bei abmelden entsprechend mit dieser interagiert
+werden. Schreibe wenn noetig Hilfsmethoden fuer das Pruefungsamt (filter, 
+search, usw.)
+
+### Daten einlesen
+
+Schreibe nun eine Funktion, welche einen String uebergeben bekommt, welcher
+ein Dateinamen raepresentiert. Die Funktion soll die uebergebene Datei 
+einlesen und anschliessend eine Liste bzw. einen Vektor mit Student Objekten
+erzeugen aus der Datei. Schreibe eventuell Hilfsfunktionen und ueberpruefe
+beim Einlesen, ob ein Student-Objekt korrekt erzeugt werden kann.
+
+### Finish
+
+Fuege diese Funktion nun deinem Menu in der main-Datei hinzu und bringe
+alles zum Laufen. Teste das Programm ausgiebig und versuche eigene Dateien
+zu erstellen und einzulesen. 
 
 
