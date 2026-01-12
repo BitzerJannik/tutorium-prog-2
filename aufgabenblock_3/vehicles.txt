@@ -1,0 +1,3 @@
+Train#TR-ICE3#400#true#429#8000#330#ICE3#Stuttgart-Berlin
+Bus#B-100#50#true#44#Diesel
+Tram#T-44#120#false#4
