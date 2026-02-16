@@ -63,3 +63,29 @@ local.properties
 *.class
 
 *.odp
+
+
+# Kompilierte Dateien
+*.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Build-Verzeichnisse
+build/
+bin/
+obj/
+
+# IDE-spezifische Dateien
+*.swp
+*.swo
+*.DS_Store
+
+
+# manuell
+aufgabe_1_2
+aufgabe_1
+aufgabe_1_1
