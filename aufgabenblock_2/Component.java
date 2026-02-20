@@ -48,6 +48,16 @@ public class Component {
         this.condition = condition;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        Component other = (Component) obj;
+        return this.id == other.id 
+               && this.serial == other.serial
+               && this.name == other.name 
+               && this.producer == other.producer
+               && this.condition == other.condition;
+    }
+
     public String toString () {
         return "Component ( id: " + this.id + ", serial: " + this.serial + ", name: " + this.name + ", producer: " + this.producer + ", condition: " + this.condition + " )";
     }
